@@ -24,6 +24,25 @@
         SGHQ
     </title>
   <body>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBanRTRWvrH9pRie4-LK_HtGeYr0yJL9wg",
+        authDomain: "sghq-9ef96.firebaseapp.com",
+        projectId: "sghq-9ef96",
+        storageBucket: "sghq-9ef96.appspot.com",
+        messagingSenderId: "604793239826",
+        appId: "1:604793239826:web:a38b4d35cb7ce34e36dbcb",
+        measurementId: "G-XDLNLXGQVK"
+      };
+    
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
     <center>
   <p>Have any issues, or concerns? feel free to contact me via E-mail at.</p> <a href="mailto:sam@sghq.xyz" p>sam@sghq.xyz</p></a>
 </center>
